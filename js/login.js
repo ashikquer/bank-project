@@ -8,7 +8,7 @@ document.getElementById('submit-buttton').addEventListener('click', function(){
  const userPassword = passwordInputField.value;
  if(userEmail == 'admin@gmail.com' && userPassword == '123456'){
     alert("Login Successful!");
-    window.location.href = "../banking.html"
+    window.location.href = "banking.html"
  }else{
    alert("User Name or Password is Not Valid!");
 
